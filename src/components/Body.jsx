@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import InputSec from "./InputSec";
+import React, { useState } from "react";
 import OutputSec from "./OutputSec";
 import { findFrequency } from "../functions";
 
