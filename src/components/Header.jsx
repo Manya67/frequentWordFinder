@@ -2,9 +2,17 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="h-10 flex flex-row justify-between items-center px-2 py-4 border-b-2 border-black">
-      <h1 className="text-3xl">Frequency Finder </h1>
-      <h1 className="text-3xl">Creator : Manya </h1>
+    <div className="h-14 sm:h-20 px-2 sm:px-4 flex flex-row justify-between items-center">
+      <h1 className="sm:text-xl lg:text-3xl bg-[#1692FE] px-4 py-2 rounded-xl shadow-lg">
+        Frequency Finder{" "}
+      </h1>
+      <a
+        className="sm:text-xl lg:text-3xl bg-[#1692FE] px-4 py-2 rounded-xl shadow-lg"
+        href="https://www.linkedin.com/in/manya-jain62002/"
+        target="_blank"
+      >
+        Connect
+      </a>
     </div>
   );
 };
