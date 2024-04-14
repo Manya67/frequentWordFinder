@@ -3,7 +3,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="h-screen w-screen border-2 border-black px-2 py-4">
+    <div className="h-screen w-screen px-2 py-4">
       <Header />
       <Body />
     </div>
